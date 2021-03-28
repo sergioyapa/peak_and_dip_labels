@@ -6,7 +6,7 @@ https://www.mathworks.com/products/signal.html
 
 How to use these functions:
 
-You just need your "x" and "y" arrays, like you would do for a simple plot(x,y), and just 2 numbers: "hs" controls the horizontal space between peaks/dips and their respective labels ((+): right, (-): left), and "vs" controls the vertical spacing. If in doubt, set hs=0 and vs=0.
+You just need your "x" and "y" arrays, as you would do for a simple plot(x,y), and just 2 numbers: "hs" controls the horizontal space between peaks/dips and their respective labels ((+): right, (-): left), and "vs" controls the vertical spacing. If in doubt, set hs=0 and vs=0.
 
 [pks,locs] = PeakDipLabels(x,y,hs,vs)
 
