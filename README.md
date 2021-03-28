@@ -4,7 +4,7 @@ Easily allows you to automatically find, plot, and label local maxima (peaks) an
 This code requires the MATLAB Signal Processing Toolbox, which can be downloaded here: 
 https://www.mathworks.com/products/signal.html
 
-How to use these functions:
+# How to use these functions:
 
 You just need your "x" and "y" arrays, as you would do for a simple plot(x,y), and just 2 numbers: "hs" controls the horizontal space between peaks/dips and their respective labels ((+): right, (-): left), and "vs" controls the vertical spacing. If in doubt, set hs=0 and vs=0.
 
@@ -23,7 +23,7 @@ You just need your "x" and "y" arrays, as you would do for a simple plot(x,y), a
 ![DipLabelsExample](https://user-images.githubusercontent.com/26829946/112745113-dcd97700-8f5a-11eb-929f-c4060cbcd512.png)
 
 
-How to install these files:
+# How to install these files:
 1. This code was written using MATLAB (version 2020a). Download MATLAB on your computer or try MATLAB online
 2. As mentioned above, you'll need to have the MATLAB Signal Processing Toolbox installed
 3. Download the 3 files on this repository: "PeakDipLabels.m", "PeakLabels.m", and "DipLabels.m"
@@ -31,7 +31,7 @@ How to install these files:
 5. That's it! You should be able to use these 3 functions
 
 
-Example:
+# Example:
 
 hs = 0; vs = 0;
 
@@ -43,3 +43,6 @@ PeakDipLabels(x,y,hs,vs)
 
 % alternatively, you can run [pks,locs] = PeakDipLabels(x,y,hs,vs) instead of PeakDipLabels(x,y,0,0) if you want to save arrays of peaks/dips and their locations to workspace
 
+# MATLAB File Exchange:
+
+[![View Peaks and Dips on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/89491-peaks-and-dips)
