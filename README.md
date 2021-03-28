@@ -8,9 +8,17 @@ How to use these functions:
 
 You just need your "x" and "y" arrays, like you would do for a simple plot(x,y), and just 2 numbers: "hs" controls the horizontal space between peaks/dips and their repsective labels ((+): right, (-): left), and "vs" controls the vertical spacing. If in doubt, set hs=0 and vs=0.
 
-- PeakDipLabels: find, plot, and label both peaks (red) and dips (green). See PeakDipLabelsExample.png
-- PeakLabels: find, plot, and label just peaks (red). See PeakLabelsExample.png
-- DipLabels: find, plot, and label just dips (green). See DipLabelsExample.png
+- PeakDipLabels: find, plot, and label both peaks (red) and dips (green). 
+
+![PeakDipLabelsExample](https://user-images.githubusercontent.com/26829946/112745104-c92e1080-8f5a-11eb-9178-8ca18cbb991e.png)
+
+- PeakLabels: find, plot, and label just peaks (red). 
+
+![PeakLabelsExample](https://user-images.githubusercontent.com/26829946/112745111-d6e39600-8f5a-11eb-8627-f2d950f31918.png)
+
+- DipLabels: find, plot, and label just dips (green).
+
+![DipLabelsExample](https://user-images.githubusercontent.com/26829946/112745113-dcd97700-8f5a-11eb-929f-c4060cbcd512.png)
 
 
 How to install these files:
@@ -24,5 +32,7 @@ How to install these files:
 Example:
 
 x = linspace(-20,20,1000);
-y = exp(-x/10).* cos(x);
-PeakDipLabels(x,y,0,0)       % alternatively, you can run [pks,locs] = PeakDipLabels(x,y,0,0) instead if you want to save arrays of peaks/dips and their locations to workspace
+y = exp(-x/10).* cos(x)
+PeakDipLabels(x,y,0,0)       
+
+% alternatively, you can run [pks,locs] = PeakDipLabels(x,y,0,0) instead if you want to save arrays of peaks/dips and their locations to workspace
