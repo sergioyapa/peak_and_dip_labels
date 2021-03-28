@@ -27,7 +27,7 @@ How to install these files:
 1. This code was written using MATLAB (version 2020a). Download MATLAB on your computer or try MATLAB online
 2. As mentioned above, you'll need to have the MATLAB Signal Processing Toolbox installed
 3. Download the 3 files on this repository: "PeakDipLabels.m", "PeakLabels.m", and "DipLabels.m"
-4. Once downloaded, copy these fucntion files to the MATLAB parent directory. On Windows, this is typically: C:\Users\YourUserName\Documents\MATLAB
+4. Once downloaded, copy these function files to the MATLAB parent directory. On Windows, this is typically: C:\Users\YourUserName\Documents\MATLAB
 5. That's it! You should be able to use these 3 functions
 
 
