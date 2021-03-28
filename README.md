@@ -33,11 +33,13 @@ How to install these files:
 
 Example:
 
+hs = 0; vs = 0;
+
 x = linspace(-20,20,1000);
 
 y = exp(-x/10).* cos(x)
 
-PeakDipLabels(x,y,0,0)       
+PeakDipLabels(x,y,hs,vs)       
 
-% alternatively, you can run [pks,locs] = PeakDipLabels(x,y,0,0) instead of PeakDipLabels(x,y,0,0) if you want to save arrays of peaks/dips and their locations to workspace
+% alternatively, you can run [pks,locs] = PeakDipLabels(x,y,hs,vs) instead of PeakDipLabels(x,y,0,0) if you want to save arrays of peaks/dips and their locations to workspace
 
